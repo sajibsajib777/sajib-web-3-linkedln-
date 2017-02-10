@@ -15,6 +15,7 @@ body{
 }
 .logo h1{
 	color: white;
+	font-family:sans-serif;
 }
 .sign-in{
 	 /*border: 2px solid blue;*/
@@ -25,44 +26,78 @@ body{
 }
 .sign-in input{
 	padding: 5px;
+	border-radius:3px;
+	font-family:sans-serif;
 }
 #btn1{
-
+padding: 5px;
+border-radius:3px;
+cursor:pointer;
+font-family:sans-serif;
+}
+.sign-in a{
+	color:white;
+	font-size:small;
+	text-decoration: none;
+	font-family:sans-serif;
+}
+.sign-in a:hover{
+	 text-decoration: underline;
 }
 .join{
 	 /*border: 2px solid blue;*/
 	 overflow: hidden;
 	 background-image: url(images.jpg);
-	 background-repeat: none;
+	 
+
 }
 .none1{
 	height: 130px;
-	width: 30%;
+	width: 32%;
 	float: left;
 }
 .join-now{
 	 /*border: 2px solid blue;*/
-	 width: 35%;
+	 width: 30%;
 	 float: left;
-	 padding-left: 30px;
 	 background:white;
 	 margin-top: 20px;
 	 margin-bottom: 20px;
-	 padding-bottom: 20px;
+	 padding:2%;
 	 border-radius: 5px;
 }
 .join-now input{
 	padding: 5px;
-	padding-right: 170px;
+	width:90%;
+	font-family:sans-serif;
 
 }
+.join-now label{
+	font-family:sans-serif;
+}
+.join-now h2{
+	text-align:center;
+	font-family:sans-serif;
+}
+.join-now h4{
+	text-align:center;
+	font-family:sans-serif;
+}
+.join-now p{
+	text-align:center;
+	font-size:small;
+	font-family:sans-serif;
+}
 #btn2{
-	padding: 5px;
-	padding-right: 287px;
+	padding: 7px;
+	width:90%;
 	text-align: center;
 	cursor: pointer;
 	background:yellow;
-	border-radius: 5px;
+	border-radius: 3px;
+	font-size:15px;
+	font-weight: bold;
+	font-family:sans-serif;
 }
 .none2{
 	height: 130px;
@@ -78,4 +113,58 @@ body{
 	background: #1A260D;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	font-family:sans-serif;
+}
+.colleague a{
+	text-decoration: none;
+	font-size:small;
+	color:white;
+}
+.colleague input{
+	padding:5px;
+	margin-left:5px;
+}
+.colleague label{
+	color:white;
+	font-family:sans-serif;
+}
+#btn3{
+	padding:5px;
+	border-radius:3px;
+	font-family:sans-serif;
+	
+}
+.colleague a{
+	font-family:sans-serif;
+	font-size:small;
+}
+#ab{
+	color:blue;
+}
+#ac{
+	color:blue;
+}
+.colleague a:hover{
+	 text-decoration: underline;
+}
+.service{
+	background: #1A260D;
+	padding-left:345px;
+	padding-bottom:50px;
+}
+.service a{
+	font-size:small;
+	color:white;
+	text-decoration:none;
+	font-family:sans-serif;
+}
+.service a:hover{
+	 text-decoration: underline;
+}
+.service label{
+	color:white;
+	font-family:sans-serif;
+}
+.service tr td{
+	padding-left:15px
 }
