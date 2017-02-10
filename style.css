@@ -1,0 +1,81 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.heading{
+ 	/*border: 2px solid blue;*/
+ 	overflow: hidden;
+ 	background: black;
+}
+.logo{
+	 /*border: 2px solid blue;*/
+	width: 40%;
+	float: left;
+	text-align: center;
+}
+.logo h1{
+	color: white;
+}
+.sign-in{
+	 /*border: 2px solid blue;*/
+	width: 58%;
+	float: right;
+	height: 70px;
+	padding-top: 10px;
+}
+.sign-in input{
+	padding: 5px;
+}
+#btn1{
+
+}
+.join{
+	 /*border: 2px solid blue;*/
+	 overflow: hidden;
+	 background-image: url(images.jpg);
+	 background-repeat: none;
+}
+.none1{
+	height: 130px;
+	width: 30%;
+	float: left;
+}
+.join-now{
+	 /*border: 2px solid blue;*/
+	 width: 35%;
+	 float: left;
+	 padding-left: 30px;
+	 background:white;
+	 margin-top: 20px;
+	 margin-bottom: 20px;
+	 padding-bottom: 20px;
+	 border-radius: 5px;
+}
+.join-now input{
+	padding: 5px;
+	padding-right: 170px;
+
+}
+#btn2{
+	padding: 5px;
+	padding-right: 287px;
+	text-align: center;
+	cursor: pointer;
+	background:yellow;
+	border-radius: 5px;
+}
+.none2{
+	height: 130px;
+	width: 30%;
+	float: right;
+}
+.footer{
+	 /*border: 2px solid blue;*/
+}
+.colleague{
+	text-align: center;
+	padding-left: 360px;
+	background: #1A260D;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
